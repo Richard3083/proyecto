@@ -1,5 +1,6 @@
 const loginForm = document.querySelector("#login-form");
 loginForm.addEventListener("submit", (e) => {
+  alert('Se registro en el Sistema');
   e.preventDefault();
   const user = loginForm["login-user"].value;
   const userWelcome = document.querySelector("#user-welcome");
